@@ -5,7 +5,7 @@ using std::cout;
 void addWithCuda(int* c, int* a, int* b, int size);
 
 int main() {
-    sf::RenderWindow window(sf::VideoMode(500, 500), "Hello SFML", sf::Style::Close);
+    sf::RenderWindow window(sf::VideoMode(500, 500), "Hello SFML and CUDA!", sf::Style::Close);
     sf::Event event;
 
     unsigned long long size = 1 << 14; // 2^28
